@@ -1,0 +1,10 @@
+<!--pages/game/game.wxml-->
+<view>
+  <canvas id="fishank" bindtouchmove='onTouchMove' canvas-id='1'/>
+
+  <button id="up" type='primary' bindtouchstart='onTouchUp'>上</button>
+  <button id="left" type='primary' bindtouchstart='onTouchLeft'>左</button>
+  <text>{{score}}</text>
+  <button id="right" type='primary' bindtouchstart='onTouchRight'>右</button>
+  <button id="down" type='primary' bindtouchstart='onTouchDown'>下</button>
+</view>
